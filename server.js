@@ -1,7 +1,6 @@
 const app = require('express');
-
 const server = app();
+const port = process.env.PORT || 3000;
 
-server.get('/', (req, res) => res.send("Message answered from server, created whit express, by: rdm Dev"));
-server.listen(3000);
-console.log("Server runnin on port 3000");
+server.get('/', (req, res) => res.send("Answer from the server created whit express, by rdm dev"));
+server.listen(port, () => console.log(`Server running on http://127.0.0.1:${port}`));
