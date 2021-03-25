@@ -1,0 +1,15 @@
+{
+    "name": "node-git",
+    "version": "1.0.0",
+    "description": "Server created whit express",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "keywords": [],
+    "author": "rdm Dev",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1"
+    }
+}
